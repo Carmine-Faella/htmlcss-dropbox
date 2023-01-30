@@ -14,11 +14,6 @@
     height: 500px;
 }
 
-.debug.title{
-    background-color: red;
-    padding: 50px;
-}
-
 .debug.col_left{
     background-color: greenyellow;
     height: 300px;
@@ -43,13 +38,34 @@
 
 .debug.col{
     height: 500px;
-    background-color: yellow;
     width: calc(100% / 3);
 }
 
 .debug.sct_title{
     background-color: red;
     height: 50px;
+}
+
+.debug.sponsor{
+    background-color: lightgreen;
+}
+
+.debug.question{
+    height: 50px;
+}
+
+.debug footer{
+    height: 500px;
+}
+
+.debug.foot_bar{
+    background-color: yellowgreen;
+    height: 50px;
+}
+
+.debug.col{
+    background-color: aliceblue;
+    height: 300px;
 }
 
 /*Regole css*/
@@ -72,13 +88,8 @@
     display: inline-block;
 }
 
-.container_top h1{
-    max-width: 80%;
-    margin: auto;
-}
-
-.container_top .top_cnt{
-    max-width: 80%;
+.container_top .top_cnt, h1, .foot_cnt{
+    max-width: 70%;
     margin: auto;
     padding: 30px 0px;
 }
@@ -100,4 +111,39 @@
 .column{
     justify-content: space-between;
 }
+
+.sponsor{
+    justify-content: space-between;
+    width: 100vw;
+    height: 60vh;
+}
+
+.sponsor .col{
+    width: calc(100% / 3);
+}
+
+.col .card{
+    width: 50%;
+}
+
+.col.overflow{
+    overflow-y: hidden;
+}
+
+.cnt h2{
+    margin-bottom: 50px;
+}
+
+footer{
+    background-color: black;
+}
+
+.foot_cnt{
+    justify-content: space-between;
+}
+
+.foot_cnt .col{
+    width: calc(100% / 5);
+}
+
 
