@@ -1,0 +1,36 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;}
+
+/*Debug*/
+
+.debug .top_bar {
+    background-color: beige;
+    height: 100px;
+}
+
+.debug .container{
+    background-color: aqua;
+    height: 500px;
+}
+
+.debug .title{
+    
+}
+
+/*Regole css*/
+
+.top_bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.top_bar ul, a{
+    text-decoration: none;
+}
+
+.top_bar li{
+    display: inline-block;
+}
