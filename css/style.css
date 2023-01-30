@@ -4,25 +4,62 @@
 
 /*Debug*/
 
-.debug .top_bar {
+.debug.top_bar {
     background-color: beige;
     height: 100px;
 }
 
-.debug .container{
+.debug.container_top{
     background-color: aqua;
     height: 500px;
 }
 
-.debug .title{
-    
+.debug.title{
+    background-color: red;
+    padding: 50px;
+}
+
+.debug.col_left{
+    background-color: greenyellow;
+    height: 300px;
+}
+.debug.col_right{
+    background-color: pink;
+    height: 300px;
+}
+
+.debug.container{
+    background-color: darkgrey;
+    padding: 50px 0px;
+}
+
+.bord{
+    border: 1px dashed black;
+}
+
+.debug.cnt{  
+    padding: 50px 0px; 
+}
+
+.debug.col{
+    height: 500px;
+    background-color: yellow;
+    width: calc(100% / 3);
+}
+
+.debug.sct_title{
+    background-color: red;
+    height: 50px;
 }
 
 /*Regole css*/
 
-.top_bar{
+.flex{
     display: flex;
     flex-wrap: wrap;
+}
+
+.top_bar{
     justify-content: space-between;
     align-content: center;
 }
@@ -34,3 +71,33 @@
 .top_bar li{
     display: inline-block;
 }
+
+.container_top h1{
+    max-width: 80%;
+    margin: auto;
+}
+
+.container_top .top_cnt{
+    max-width: 80%;
+    margin: auto;
+    padding: 30px 0px;
+}
+
+.col_left{
+    width: 30%;
+}
+
+.col_right{
+    width: 70%;
+}
+
+.cnt{
+    max-width: 60%;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+.column{
+    justify-content: space-between;
+}
+
