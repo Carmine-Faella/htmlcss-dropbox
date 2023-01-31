@@ -16,6 +16,14 @@ h1{
     padding-top: 50px;
 }
 
+.col_left{
+    width: 30%;
+}
+
+.col_right{
+    width: 70%;
+}
+
 .top_bar{
     justify-content: space-between;
     align-content: center;
@@ -48,6 +56,11 @@ h1{
     padding-top: 90px;
 }
 
+.img_jumbo{
+   height: 500px;
+   width: 110%;
+}
+
 .top_cnt{
     padding-top: 100px;
 }
@@ -63,36 +76,24 @@ h1{
 
 .col_left .fa-solid{
     font-size: 50px;
-    padding-top: 100px;
+    padding-top: 50px;
     color: black;
 }
 
-#container_top .col_right{
-    padding: 50px 0px 0px 60px;
-}
-
-.padding{
-    padding: 50px 0px 50px 0px;
-}
-
-.col_left{
-    width: 30%;
-}
-
-.col_right{
-    width: 70%;
-}
-
 .small_text{
-    padding-top: 20px;
+    font-size: 14px;
+}
+
+.piani div{
+    padding: 15px 0px;
+}
+
+.piani{
+    flex-wrap: nowrap;
 }
 
 .grey{
     color: grey;
-}
-
-h4{
-    padding-bottom: 30px;
 }
 
 img{
@@ -117,14 +118,20 @@ img{
     padding: 50px 0px 50px 0px;
 }
 
-.cnt .column{
-    padding: 20px 20px;
+#section1{
+    padding-top: 150px;
+    padding-bottom: 50px;
 }
 
 .cnt{
     max-width: 50%;
     margin: auto;
-    padding: 100px 0px;
+}
+
+.circle{
+    padding-right: 30px;
+    display: inline-block;
+    padding-bottom: 50px;
 }
 
 #section4 .col_left{
@@ -143,12 +150,43 @@ img{
     width: 30%;
 }
 
-.sct_title{
+#section1 .sct_title{
+    padding: 10px 0px;
+    border-bottom: 1px black solid;
+    text-align: center;
+}
+
+
+#section3 .sct_title{
     text-align: center;
     padding: 15px 0px 15px 0px;
     border-top: 1px solid gray;
     border-left: 1px solid gray;
     border-right: 1px solid gray;
+}
+
+#section7 a {
+    color: black;
+}
+
+.purple{
+    color: purple;
+}
+
+#section3 .button{
+    padding: 20px 0px 0px 50px;
+}
+
+.padd{
+    padding-bottom: 30px;
+}
+
+.padd50{
+    padding: 100px 0px;
+}
+
+.padd20{
+    padding: 20px 20px;
 }
 
 .border{
@@ -220,7 +258,7 @@ img{
 }
 
 .overflow{
-    overflow-y: auto;
+    overflow-y: scroll;
 }
 
 .overflow img{
@@ -233,11 +271,34 @@ img{
 }
 
 .cnt h2{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
+
+.padding ,#section1 h3, #section1 h4{
+    padding: 15px 20px;
+}
+
+#section1 li{
+    padding-bottom: 20px;
+}
+
+#section1 .button{
+    padding: 50px 20px;
+}
+
+#section1 h4{
+    padding-top: 100px;
+}
+
+#section1 .bord{
+    border-bottom: 1px grey solid ;
+    padding-bottom: 50px;
+}
+
 
 #section7{
     background-color: #b4d0e7;
+    padding-top: 50px;
 }
 
 .column.cnt.flex {
@@ -271,10 +332,16 @@ footer{
 .question{
     padding: 20px 0px;
     border-top: 1px solid black;
+    font-weight: bold;
 }
 
 .last{
     border-bottom: 1px solid black;
 }
 
+.foot_bar span{
+    border-top: 1px solid white;
+    padding-top: 50px;
+    opacity: 0.5;
+}
 
