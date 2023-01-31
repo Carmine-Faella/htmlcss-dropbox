@@ -82,7 +82,7 @@ h1{
     z-index: 999;
 }
 
-.top_bar ul, a{
+.top_bar ul, .top_bar a, .container_top a{
     text-decoration: none;
     color: black;
 }
@@ -117,6 +117,15 @@ h1{
 .col_left .fa-solid{
     font-size: 50px;
     padding-top: 100px;
+    color: black;
+}
+
+#container_top .col_right{
+    padding: 50px 0px 0px 60px;
+}
+
+.padding{
+    padding: 50px 0px 50px 0px;
 }
 
 .col_left{
@@ -127,8 +136,16 @@ h1{
     width: 70%;
 }
 
-.top_cnt .col_right{
-    padding: 50px 0px 0px 50px
+.small_text{
+    padding-top: 20px;
+}
+
+.grey{
+    color: grey;
+}
+
+h4{
+    padding-bottom: 30px;
 }
 
 .col_right img{
@@ -138,19 +155,29 @@ h1{
 
 .button a{
     background-color: #0061ff;
-    padding: 8px 10px;
+    padding: 10px 15px;
     color: white;
     border: none;
+    text-decoration: none;
+    font-size: 14px;
 }
 
 .top_cnt .button{
     padding: 50px 0px 50px 0px;
 }
 
+.cnt .column{
+    padding: 20px 20px;
+}
+
+.cnt .col_left{
+    text-align: right;
+}
+
 .cnt{
     max-width: 50%;
     margin: auto;
-    padding: 20px 0px;
+    padding: 100px 0px;
 }
 
 .column{
@@ -164,7 +191,10 @@ h1{
 
 .sct_title{
     text-align: center;
-    padding-bottom: 50px;
+    padding: 15px 0px 15px 0px;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
 }
 
 .border{
