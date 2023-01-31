@@ -31,11 +31,6 @@
     width: calc(100% / 3);
 }
 
-.debug.sct_title{
-    background-color: red;
-    height: 50px;
-}
-
 .debug.sponsor{
     background-color: lightgreen;
 }
@@ -60,16 +55,31 @@
 
 /*Regole css*/
 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
 .flex{
     display: flex;
     flex-wrap: wrap;
+}
+
+h1{
+    font-size: 80px;
+    padding-top: 50px;
 }
 
 .top_bar{
     justify-content: space-between;
     align-content: center;
     box-shadow: 0px 10px 8px grey;
-    height: 100px;
+    height: 70px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 999;
 }
 
 .top_bar ul, a{
@@ -86,44 +96,27 @@
     height: 20px;
 }
 
-.col_right img{
-    height: 320px;
-    transform: scale(1.6);
-    margin-top: 50px;
-}
-
-.button{
-    background-color: #0061ff;
-    padding: 8px 10px;
-    color: white;
-    border: none;
-}
-
-.text{
-    margin-bottom: 50px;
-}
-
-.container_top{
+#container_top{
     background-color: #b4d0e7;
+    padding-top: 90px;
 }
 
-.container_top .top_cnt, .foot_cnt, h1{
+.top_cnt{
+    padding-top: 100px;
+}
+
+#container_top .top_cnt, .foot_cnt, h1{
     max-width: 60%;
     margin: auto;
-    padding: 30px 0px;
-}
-
-h1{
-    font-size: 50px;
 }
 
 .top_cnt .col_left p{
-    margin-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 .col_left .fa-solid{
     font-size: 50px;
-    margin-top:150px;
+    padding-top: 100px;
 }
 
 .col_left{
@@ -132,7 +125,26 @@ h1{
 
 .col_right{
     width: 70%;
-    padding: 50px 0px  0px 150px;
+}
+
+.top_cnt .col_right{
+    padding: 50px 0px 0px 50px
+}
+
+.col_right img{
+    width: 100%;
+    transform: scale(1.2);
+}
+
+.button a{
+    background-color: #0061ff;
+    padding: 8px 10px;
+    color: white;
+    border: none;
+}
+
+.top_cnt .button{
+    padding: 50px 0px 50px 0px;
 }
 
 .cnt{
@@ -143,6 +155,29 @@ h1{
 
 .column{
     justify-content: space-between;
+}
+
+.col{
+    width: 30%;
+    padding: 20px;
+}
+
+.sct_title{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.border{
+    border: 1px solid grey;
+}
+
+.col li{
+    list-style: none;
+    padding: 15px 0px 15px 0px;
+}
+
+.col i{
+    padding-right: 5px;
 }
 
 .sponsor{
