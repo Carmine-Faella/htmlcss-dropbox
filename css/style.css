@@ -148,18 +148,22 @@ h4{
     padding-bottom: 30px;
 }
 
-.col_right img{
+img{
     width: 100%;
-    transform: scale(1.2);
 }
 
 .button a{
     background-color: #0061ff;
     padding: 10px 15px;
     color: white;
-    border: none;
     text-decoration: none;
     font-size: 14px;
+}
+
+.button.bt_white a{
+    background-color: white;
+    color: grey;
+    border: 1px solid black;
 }
 
 .top_cnt .button{
@@ -170,14 +174,18 @@ h4{
     padding: 20px 20px;
 }
 
-.cnt .col_left{
-    text-align: right;
-}
-
 .cnt{
     max-width: 50%;
     margin: auto;
     padding: 100px 0px;
+}
+
+#section4 .col_left{
+    padding-left: 30px;
+}
+
+#section4 h3{
+    padding-bottom: 50px;
 }
 
 .column{
@@ -186,7 +194,6 @@ h4{
 
 .col{
     width: 30%;
-    padding: 20px;
 }
 
 .sct_title{
@@ -210,22 +217,73 @@ h4{
     padding-right: 5px;
 }
 
-.sponsor{
-    justify-content: space-between;
-    width: 100vw;
-    height: 60vh;
+#section5 h3{
+    padding-bottom: 30px;
 }
 
-.sponsor .col{
+.sponsor{
+    width: 100%;
+    height: calc(100vw / 3);
+}
+
+.square{
     width: calc(100% / 3);
 }
 
-.col .card{
+.square .card{
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    align-content: center;
+}
+
+.card img{
     width: 50%;
 }
 
-.col.overflow{
-    overflow-y: hidden;
+.green{
+    background-color: #a1d19a;
+}
+
+.darkred{
+    background-color: #60082a;
+}
+
+.blue{
+    background-color: #0093ce;
+}
+
+.red{
+    background-color:#ff1c1c;
+}
+
+.lightred{
+    background-color: #d5001f;
+}
+
+.acqua{
+    background-color:#b4d0e7 ;
+}
+
+.darkblue{
+    background-color: #0d2481;
+}
+
+.yellow{
+    background-color: #ffd830;
+}
+
+.overflow{
+    overflow-y: auto;
+}
+
+.overflow img{
+    width: 60%;
+    padding: 50px;
+}
+
+.overflow p, .overflow div{
+    padding: 50px;
 }
 
 .cnt h2{
