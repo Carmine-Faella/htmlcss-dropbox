@@ -11,17 +11,8 @@ body{
     flex-wrap: wrap;
 }
 
-h1{
-    font-size: 80px;
-    padding-top: 50px;
-}
-
-.col_left{
-    width: 30%;
-}
-
-.col_right{
-    width: 70%;
+.button a{
+    display: inline-block;
 }
 
 .top_bar{
@@ -35,6 +26,31 @@ h1{
     width: 100%;
     background-color: white;
     z-index: 999;
+}
+
+h1{
+    font-size: 80px;
+}
+
+.top_cnt{
+    position: relative;
+    bottom: -70px;
+}
+
+.col_left{
+    width: 30%;
+}
+
+.top_cnt .col_left p{
+    padding-bottom: 30px;
+}
+
+.col_left .fa-solid{
+    font-size: 65px;
+}
+
+.col_right{
+    width: 70%;
 }
 
 .top_bar ul, .top_bar a, .container_top a{
@@ -53,16 +69,7 @@ h1{
 
 #container_top{
     background-color: #b4d0e7;
-    padding-top: 90px;
-}
-
-.img_jumbo{
-   height: 500px;
-   width: 110%;
-}
-
-.top_cnt{
-    padding-top: 100px;
+    padding-top: 70px;
 }
 
 #container_top .top_cnt, .foot_cnt, h1{
@@ -70,22 +77,9 @@ h1{
     margin: auto;
 }
 
-.top_cnt .col_left p{
-    padding-bottom: 30px;
-}
-
-.col_left .fa-solid{
-    font-size: 50px;
-    padding-top: 50px;
-    color: black;
-}
-
 .small_text{
     font-size: 14px;
-}
-
-.piani div{
-    padding: 15px 0px;
+    padding: 0px 15px;
 }
 
 .piani{
@@ -93,6 +87,7 @@ h1{
 }
 
 .grey{
+    padding: 10px 0px 50px 0px;
     color: grey;
 }
 
@@ -102,7 +97,7 @@ img{
 
 .button a{
     background-color: #0061ff;
-    padding: 10px 15px;
+    padding: 10px 20px;
     color: white;
     text-decoration: none;
     font-size: 14px;
@@ -114,13 +109,54 @@ img{
     border: 1px solid black;
 }
 
-.top_cnt .button{
-    padding: 50px 0px 50px 0px;
+.padding_bottom{
+    padding-bottom: 30px;
 }
 
 #section1{
     padding-top: 150px;
     padding-bottom: 50px;
+}
+
+#section1 .sct_title{
+    border-bottom: 1px black solid;
+    text-align: center;
+}
+
+#section1 h3{
+    padding: 20px 15px;
+}
+
+#section1 .bord{
+    border-bottom: 1px lightgray solid ;
+}
+
+#section3 .sct_title{
+    text-align: center;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+#section3 .button{
+    padding: 20px 0px 0px 50px;
+}
+
+
+#section4 h3{
+    padding-bottom: 50px;
+}
+
+#section4 .col_left{
+    padding-left: 30px;
+}
+
+#section5 h3{
+    padding-bottom: 30px;
+}
+
+#section7{
+    background-color: #b4d0e7;
 }
 
 .cnt{
@@ -134,14 +170,6 @@ img{
     padding-bottom: 50px;
 }
 
-#section4 .col_left{
-    padding-left: 30px;
-}
-
-#section4 h3{
-    padding-bottom: 50px;
-}
-
 .column{
     justify-content: space-between;
 }
@@ -150,43 +178,8 @@ img{
     width: 30%;
 }
 
-#section1 .sct_title{
-    padding: 10px 0px;
-    border-bottom: 1px black solid;
-    text-align: center;
-}
-
-
-#section3 .sct_title{
-    text-align: center;
-    padding: 15px 0px 15px 0px;
-    border-top: 1px solid gray;
-    border-left: 1px solid gray;
-    border-right: 1px solid gray;
-}
-
-#section7 a {
-    color: black;
-}
-
 .purple{
     color: purple;
-}
-
-#section3 .button{
-    padding: 20px 0px 0px 50px;
-}
-
-.padd{
-    padding-bottom: 30px;
-}
-
-.padd50{
-    padding: 100px 0px;
-}
-
-.padd20{
-    padding: 20px 20px;
 }
 
 .border{
@@ -201,8 +194,12 @@ img{
     padding-right: 5px;
 }
 
-#section5 h3{
-    padding-bottom: 30px;
+.cnt h2{
+    margin-bottom: 30px;
+}
+
+.column.cnt.flex {
+    padding: 100px 0px;
 }
 
 .sponsor{
@@ -257,57 +254,27 @@ img{
     background-color: #ffd830;
 }
 
-.overflow{
-    overflow-y: scroll;
+.card img {
+    filter: invert(1);
 }
 
-.overflow img{
-    width: 60%;
-    padding: 50px;
+.sq_background{
+    background-color: #f5f5f5;
 }
 
-.overflow p, .overflow div{
-    padding: 50px;
-}
-
-.cnt h2{
-    margin-bottom: 30px;
-}
-
-.padding ,#section1 h3, #section1 h4{
-    padding: 15px 20px;
-}
-
-#section1 li{
-    padding-bottom: 20px;
-}
-
-#section1 .button{
-    padding: 50px 20px;
-}
-
-#section1 h4{
-    padding-top: 100px;
-}
-
-#section1 .bord{
-    border-bottom: 1px grey solid ;
+.designit img{
+    width: 50%;
     padding-bottom: 50px;
 }
 
-
-#section7{
-    background-color: #b4d0e7;
-    padding-top: 50px;
+.designit span {
+    border-top: 1px solid lightgrey;
 }
 
-.column.cnt.flex {
-    padding: 100px 0px;
-}
 
-footer{
+#foot{
     background-color: black;
-    color: white;
+    color:white;
 }
 
 .foot_cnt{
@@ -341,7 +308,29 @@ footer{
 
 .foot_bar span{
     border-top: 1px solid white;
-    padding-top: 50px;
     opacity: 0.5;
 }
 
+.padding_top50{
+    padding-top:50px;
+}
+
+.padding20{
+    padding: 50px 20px;
+}
+
+.padd{
+    padding-bottom: 30px;
+}
+
+.padd50{
+    padding: 100px 0px;
+}
+
+.padding{
+    padding: 15px 0px;
+}
+
+.color_black{
+    color: black;
+}
