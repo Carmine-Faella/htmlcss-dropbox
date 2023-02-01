@@ -32,6 +32,10 @@ h1{
     font-size: 80px;
 }
 
+h2{
+    font-size: 30px;
+}
+
 .top_cnt{
     position: relative;
     bottom: -70px;
@@ -126,6 +130,18 @@ img{
     border-bottom: 1px lightgray solid ;
 }
 
+#section1 li:before{
+    content: "\2713";
+    color: blue;
+    padding-right: 5px;
+    font-weight: bolder;
+}
+
+#section1 li{
+    text-indent: -15px;
+    padding: 15px 0px 0px 15px;
+}
+
 #section3 .sct_title{
     text-align: center;
     border-top: 1px solid lightgray;
@@ -136,7 +152,6 @@ img{
 #section3 .button{
     padding: 20px 0px 0px 50px;
 }
-
 
 #section4 h3{
     padding-bottom: 50px;
@@ -167,6 +182,26 @@ img{
     padding-right: 30px;
     display: inline-block;
     padding-bottom: 50px;
+}
+
+.circle:before{
+    content: "\25CF";
+    border: 5px solid blue;
+    border-radius: 50%;
+    padding: 0px 5px;
+    color: white;
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+.cicle_white:before{
+    content: "\25CF";
+    border: 2px solid lightgray;
+    border-radius: 50%;
+    padding: 0px 5px;
+    color: white;
+    font-size: 10px;
+    margin-right: 5px;
 }
 
 .column{
@@ -208,6 +243,7 @@ img{
 
 .square{
     width: calc(100% / 3);
+    height: calc(100vw /3);
 }
 
 .square .card{
@@ -266,10 +302,9 @@ img{
     padding-bottom: 50px;
 }
 
-.designit span {
+span.br.padding_top50 {
     border-top: 1px solid lightgrey;
 }
-
 
 #foot{
     background-color: black;
@@ -296,9 +331,14 @@ img{
 }
 
 .question{
-    padding: 20px 0px;
+    padding: 50px 0px;
     border-top: 1px solid black;
-    font-weight: bold;
+}
+
+.question h4 + div{
+    padding-top: 20px;
+    display:none;
+    font-size:large;
 }
 
 .last{
@@ -336,4 +376,33 @@ img{
 
 .color_black{
     color: black;
+}
+
+.question h4:hover + div{
+    display: block;
+}
+
+.question h4:hover .fa-solid, .fas {
+    font-weight: 900;
+    transform: rotate(180deg);
+}
+
+.foot_cnt a:hover{
+    text-decoration: underline;
+}
+
+.button:hover{
+    opacity: 0.5;
+}
+
+.hover{
+    line-height: 70px;
+}
+
+.hover:hover{
+    border-bottom: 2px solid black;
+}
+
+.overflow{
+    overflow-y: scroll;
 }
